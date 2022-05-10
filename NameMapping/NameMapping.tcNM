@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{78231598-84C1-4BF1-8E0A-F0B8ED9FB378}">
+				<TypeInfo Item0="{8BBA34DB-402F-42F3-A837-941CC41E0343}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{B667CE12-060D-4EA8-9BDB-FE24BC479BA3}">
+						<TypeInfo Item0="{05694CD3-357D-4FB3-87C9-44687E8DD834}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageLoginIomTeleradiology" Key="{E670A153-06F7-4B78-8F5F-25C97FD6B974}">
+								<Image FileName="650485339" Left="8" Top="112" Right="1505" Bottom="687" />
+								<TypeInfo Item0="{3B827481-0119-4435-9FE5-C674525E2B02}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://mnlimlabapp03.iom.int:10444/telerad/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="labelUsername" Key="{B40ED9A4-EF33-40C9-BBF7-D0267BC09B5E}">
+										<Image FileName="650485339" Left="582" Top="393" Right="931" Bottom="452" />
+										<TypeInfo Item0="{4E32C0E1-0CB5-4DB4-9E4E-51B0E00FA0C0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;Username&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{02E4B162-2065-4764-9EBE-999FB4196BB0}">
+										<Image FileName="650485339" Left="582" Top="417" Right="931" Bottom="451" />
+										<TypeInfo Item0="{BF2FC5E7-0446-4B2B-8578-423D16730911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Username&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#UserName" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;UserName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/fieldset/label[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{B667CE12-060D-4EA8-9BDB-FE24BC479BA3}">
+			<Child Name="pageLoginIomTeleradiology" Owner="{E670A153-06F7-4B78-8F5F-25C97FD6B974}">
+				<Child Name="labelUsername" Owner="{B40ED9A4-EF33-40C9-BBF7-D0267BC09B5E}">
+					<Child Name="textboxUsername" Owner="{02E4B162-2065-4764-9EBE-999FB4196BB0}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
